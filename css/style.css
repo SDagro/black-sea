@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('../fonts/HelveticaLTStd-Bold.eot');
+    src: local('../fonts/Helvetica LT Std Bold'), local('HelveticaLTStd-Bold'),
+        url('../fonts/HelveticaLTStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaLTStd-Bold.woff2') format('woff2'),
+        url('../fonts/HelveticaLTStd-Bold.woff') format('woff'),
+        url('../fonts/HelveticaLTStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('../fonts/HelveticaLTStd-Cond.eot');
+    src: local('../fonts/Helvetica LT Std Condensed'), local('HelveticaLTStd-Cond'),
+        url('../fonts/HelveticaLTStd-Cond.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaLTStd-Cond.woff2') format('woff2'),
+        url('../fonts/HelveticaLTStd-Cond.woff') format('woff'),
+        url('../fonts/HelveticaLTStd-Cond.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('../fonts/HelveticaLTStd-Light.eot');
+    src: local('../fonts/Helvetica LT Std Light'), local('HelveticaLTStd-Light'),
+        url('../fonts/HelveticaLTStd-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaLTStd-Light.woff2') format('woff2'),
+        url('../fonts/HelveticaLTStd-Light.woff') format('woff'),
+        url('../fonts/HelveticaLTStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('../fonts/HelveticaLTStd-Roman.eot');
+    src: local('../fonts/Helvetica LT Std Roman'), local('HelveticaLTStd-Roman'),
+        url('../fonts/HelveticaLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaLTStd-Roman.woff2') format('woff2'),
+        url('../fonts/HelveticaLTStd-Roman.woff') format('woff'),
+        url('../fonts/HelveticaLTStd-Roman.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+li{
+    text-transform: uppercase;
+    list-style: none;
+    /*display: inline-flex;*/
+    padding-right: 10px;
+    color: #ffffff;
+    display: inline-flex;
+}
+a:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+a{
+    font-family: Helvetica LT Std;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: inline-flex;
+    background-color: #4c97a3;
+    justify-content: space-around;
+}
+.logo{
+    font-family: 'Cherry Swash', cursive;
+    font-size: 40px;
+    color: #ffffff;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*================ Banner ================*/
+
+.banner{
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 474px;
+}
+.previu{
+    font-family: Helvetica LT Std;
+    font-weight: bold;
+    font-size: 38px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 60px;
+    opacity: 0.8;
+}
+button{
+    font-family: Helvetica LT Std;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: solid 2px #ffffff;
+    border-radius: 8px;
+    background-color: inherit;
+    width: 200px;
+}
+button:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+/*================ About ================*/
+
+.about{
+    height: 400px;
+    margin-top: 83px;
+    padding-top: 60px;
+    background-color: #ffffff;
+}
+h3{
+    font-family: Helvetica LT Std;
+    font-weight: 300;
+    color: #4c505d;
+    font-size: 30px;
+    text-align: center;
+}
+.first{
+    font-family: Helvetica LT Std;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4c505d;
+    text-align: center;
+}
+.shares{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*================ Atme ================*/
+
+.atme{
+    background-color: #00d089;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+.myphoto{
+    border-radius: 50%;
+    position: absolute;
+}
+.photo_conteiner{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -158px;
+}
+.dhavan{
+    position: relative;
+    margin-left: 300px;
+    margin-top: -100px;
+    font-family: Helvetica LT Std;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hoote{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.tools{
+    font-size: 338px;
+    position: absolute;
+    margin-top: 212px;
+    margin-right: 46px;
+    letter-spacing: -40px;
+    opacity: 0.5;
+    }
+.flash{
+    position: absolute;
+    margin-top: 231px;
+    font-family: Helvetica LT Std;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/*================ Footer ================*/
+
+
+
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/map.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*================ Forma ================*/
+
+.conta{
+    width: 393px;
+    height: 382px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+.forma{
+    margin-top: 100px;
+}
+.myinput{
+    font-family: Helvetica LT Std;
+    width: 220px;
+    color: #b4b5b9;
+    font-size: 14px;
+    border: solid 1px #d8d8d8;
+}
+.myinput2{
+    font-family: Helvetica LT Std;
+    width: 220px;
+    height: 50px;
+    color: #b4b5b9;
+    font-size: 14px;
+    border: solid 1px #d8d8d8;
+}
+
+/*================ Copes ================*/
+
+.copes{
+    width: 100%;
+    height: 50px;
+    background-color: #00d089;
+    padding-top: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Helvetica LT Std;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
